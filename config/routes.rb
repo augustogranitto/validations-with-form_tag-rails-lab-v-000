@@ -52,6 +52,7 @@ Rails.application.routes.draw do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
          resources :authors
+         resources :posts
   #   end
   #get "/authors/:id", to: "authors#show" as: "author"
 
