@@ -53,6 +53,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
          resources :authors
   #   end
-  get "/authors/:id", to: "authors#show" as: "author"
+  #get "/authors/:id", to: "authors#show" as: "author"
 
 end
