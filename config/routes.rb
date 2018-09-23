@@ -51,8 +51,8 @@ Rails.application.routes.draw do
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
+         resources :products
   #   end
-  get "/authors/:id", to: "authors#show"
+  get "/authors/:id", to: "authors#show" as: "author"
 
 end
